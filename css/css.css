@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+TITLE_TEXT { 
+    font-family: Bahnschrift;
+    font-size: 150%;
+    font-weight: lighter;
+}
+MAIN_TEXT { 
+    font-family: Bahnschrift;
+    font-size: 125%;
+    font-weight: lighter;
+}
+.question {
+    margin-top: 40px;
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.description {
+    margin:0 auto;
+    margin-top: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: dashed;
+    padding: 10px;
+    display:inline-flex;
+    -webkit-transition: all .3s;
+	-o-transition: all .3s;
+    max-width:1280px;
+    min-width:940px;
+}
+.footer {
+    position: fixed;
+    left: 0; bottom: 0; 
+    background: cornflowerblue;
+    color: #fff;
+    width: 100%;
+}
+.footer div {
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.navigation {
+    margin: 0 auto;
+    background-color:cornflowerblue;
+    display: flex;
+}
+.navigation a {
+    display:inline-flex;
+	align-items: center;
+	justify-content: center;
+	position:relative;
+    float: left;
+    background-color:cornflowerblue;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 25px;
+    width:100%;
+    height: 100%;
+    -webkit-transition: all .3s;
+	-o-transition: all .3s;
+}
+.navigation a:hover {
+    background-color: #ddd;
+    color:cornflowerblue;
+}
+.navigation a.active {
+    color: cornflowerblue;
+    background-color: white;
+}
+img:hover, .description:hover, .description_last:hover
+{
+    box-shadow: 0px 0px 150px white;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+}
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-transition: all .3s;
+	-o-transition: all .3s;
+}
+.description_last {
+    margin:0 auto;
+    margin-top: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: dashed;
+    padding: 10px;
+    display:inline-flex;
+    -webkit-transition: all .3s;
+	-o-transition: all .3s;
+    width:auto;
+    max-width:1280px;
+    min-width:940px;
+    margin-bottom: 75px;
+}
+@media (min-width: 0px) and (max-width: 1450px) {
+	.description {
+		margin-left: 0;
+        margin-right: 0;
+	}
+    .description_last {
+		margin-left: 0;
+        margin-right: 0;
+	}
+}
