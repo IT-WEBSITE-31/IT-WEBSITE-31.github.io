@@ -113,11 +113,16 @@ img {
 		margin-left: 0;
         margin-right: 0;
         border: 0;
+        font-size: 80%;
 	}
+    .question {
+        font-size: 80%;
+    }
     .description_last {
 		margin-left: 0;
         margin-right: 0;
         border: 0;
+        font-size: 80%;
 	}
     img:hover, .description:hover, .description_last:hover {
         -webkit-transform: scale(1);
